@@ -69,6 +69,9 @@ header {
 }
 
 @media (max-width: 468px) {
+  header {
+    padding-bottom: 0;
+  }
   .header-wrapper {
     justify-content: space-between;
     padding: 40px 45px 105px 36px;
@@ -88,12 +91,14 @@ header {
 /* Hero section */
 .hero {
   padding-top: 80px;
+  gap: 0;
 }
 .hero-heading1 {
   font-size: 58px;
   font-weight: bold;
   color: var(--color-primary);
   line-height: 80px;
+  margin: 0;
 }
 .hero-paragraph {
   font-size: 20px;
@@ -101,6 +106,7 @@ header {
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 40px;
+  margin: 0;
 }
 .hero-btn1 {
   padding: 10px 36px;
@@ -125,6 +131,7 @@ header {
     gap: 40px;
     justify-content: center;
     align-items: center;
+    padding-top: 0;
   }
   .hero-heading1 {
     font-size: 40px;
@@ -134,6 +141,7 @@ header {
   .hero-paragraph {
     max-width: 279px;
     line-height: 30px;
+    text-align: center;
   }
   .hero-btns {
     display: flex;
